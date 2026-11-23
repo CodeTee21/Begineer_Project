@@ -1,0 +1,102 @@
+[
+    {
+        "question": "A variable is created with `items = [10, 20, 30]`. A programmer wants to change only the second value to 50. Which statement does exactly that?",
+        "options": [
+            "items[1] = 50",
+            "items[2] = 50",
+            "items(1) = 50",
+            "items = [10, 50]"
+        ],
+        "answer": "items[1] = 50"
+    },
+    {
+        "question": "A function is defined as `def greet(name):`. Which call correctly provides the value needed for `name`?",
+        "options": [
+            "greet",
+            "greet()",
+            "greet(\"Ada\")",
+            "def greet(\"Ada\")"
+        ],
+        "answer": "greet(\"Ada\")"
+    },
+    {
+        "question": "A program asks a user for their age using `input()`. The user enters `20`. What should the programmer do if they want to perform numerical calculations with that value?",
+        "options": [
+            "Use `str()` to make the value numerical",
+            "Use `int()` to convert the input into an integer",
+            "Use `list()` to separate the digits",
+            "Use `bool()` because numbers are Boolean values"
+        ],
+        "answer": "Use `int()` to convert the input into an integer"
+    },
+    {
+        "question": "A dictionary contains `student = {\"name\": \"Fathiat\", \"age\": 20}`. Which expression retrieves the student's age?",
+        "options": [
+            "student[1]",
+            "student[\"age\"]",
+            "student.age",
+            "student(\"age\")"
+        ],
+        "answer": "student[\"age\"]"
+    },
+    {
+        "question": "A programmer wants a block of code to run only when `score` is at least 50. Which condition expresses that requirement?",
+        "options": [
+            "score > 50",
+            "score < 50",
+            "score >= 50",
+            "score == 50"
+        ],
+        "answer": "score >= 50"
+    },
+    {
+        "question": "A list contains `numbers = [4, 7, 9, 12]`. A programmer wants to process every value without manually writing the same instruction four times. Which approach fits the requirement?",
+        "options": [
+            "Use an `if` statement with one condition",
+            "Use a `for` loop to go through the list",
+            "Use a dictionary to replace the list",
+            "Use `input()` once for each value"
+        ],
+        "answer": "Use a `for` loop to go through the list"
+    },
+    {
+        "question": "A programmer writes `x = 10` and later writes `x == 10`. What is the role of the second statement's `==` operator?",
+        "options": [
+            "It changes x to 10",
+            "It checks whether x has the value 10",
+            "It creates a new variable named 10",
+            "It copies the value of x into another variable"
+        ],
+        "answer": "It checks whether x has the value 10"
+    },
+    {
+        "question": "A program has the same five instructions that need to be performed in three different places. What design would reduce unnecessary repetition?",
+        "options": [
+            "Put the five instructions inside a function and call it where needed",
+            "Copy the five instructions into each location",
+            "Put all five instructions into a variable",
+            "Replace the instructions with a dictionary"
+        ],
+        "answer": "Put the five instructions inside a function and call it where needed"
+    },
+    {
+        "question": "A programmer needs to check whether a user's answer is either `yes` or `no`. Which condition represents that requirement most directly?",
+        "options": [
+            "answer == \"yes\" and answer == \"no\"",
+            "answer == \"yes\" or answer == \"no\"",
+            "answer != \"yes\" and answer != \"no\"",
+            "answer = \"yes\" or \"no\""
+        ],
+        "answer": "answer == \"yes\" or answer == \"no\""
+    },
+    {
+        "question": "A quiz stores each question as a dictionary containing `question`, `options`, and `answer`. Why is this structure useful when the program has many questions?",
+        "options": [
+            "Each dictionary can keep related information about one question together",
+            "A dictionary automatically asks the user each question",
+            "A dictionary prevents the program from using loops",
+            "Each dictionary automatically checks whether an answer is correct"
+        ],
+        "answer": "Each dictionary can keep related information about one question together"
+    }
+]
